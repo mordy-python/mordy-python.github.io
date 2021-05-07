@@ -1,0 +1,55 @@
+* {
+  	margin: 0%;
+  	padding: 0%;
+}
+html {
+	background-image: url("./bg2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	background-color: black;
+	opacity: 0.8;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+}
+h3,h4,p,ul{
+	padding: 0.5%;
+}
+
+.header {
+	text-align: center;
+	font-size: 20px;
+	opacity: 1;
+	padding: 1%;
+}
+.projects {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	vertical-align: middle;
+	padding: 2%;
+}
+.proj{
+	border: 1px solid white;
+	padding: 0.2%;
+	margin: 1%;
+}
+.proj h3{
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: grey;
+	outline: none;
+}
+.proj:hover{
+	transition: 2s;
+	transform: scale(1.09);
+	background-color: rgb(54, 53, 53);
+	opacity: 1;
+}
