@@ -12,6 +12,6 @@ jobs:
       id-token: "write"
     with:
       settings: "publishconf.py"
-      requirements: "pelican[markdown] typogrify"
+      requirements: "pelican[markdown] typogrify pelican-photos"
       theme: "https://github.com/web-pat/tuxlite_recipes"
       python: "3.12"
