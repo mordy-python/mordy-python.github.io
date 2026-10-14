@@ -3,6 +3,7 @@ date: 2026-09-11
 Category: Desserts
 Tags: cake, honey, baking
 Summary: A fluffy sweet honey cake
+Image: {photo}honey_cake/cake_w_coffee.jpg
 
 ---
 

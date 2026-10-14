@@ -1,15 +1,16 @@
 import datetime
+
 CURRENT_YEAR = datetime.date.today().year
 
-AUTHOR = 'Izzy W'
-SITENAME = 'Izzys Recipes'
+AUTHOR = "Izzy W"
+SITENAME = "Izzys Recipes"
 SITEURL = ""
 
 PATH = "content"
 
-TIMEZONE = 'America/New_York'
+TIMEZONE = "America/New_York"
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = "en"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -32,10 +33,12 @@ AUTHOR_FEED_RSS = None
 #     ("Another social link", "#"),
 # ]
 
-THEME= 'themes/tuxlite_recipes'
+THEME = "themes/tuxlite_recipes"
 
 
-STATIC_PATHS = ['images']
+PHOTO_LIBRARY = "/home/izzy/Desktop/recipes/content/images"
+
+STATIC_PATHS = ["images"]
 DEFAULT_PAGINATION = 10
 USE_FOLDER_AS_CATEGORY = True
 # Uncomment following line if you want document-relative URLs when developing
